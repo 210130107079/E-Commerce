@@ -13,7 +13,6 @@ import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import SearchBar from './components/SearchBar.jsx'
 import { ToastContainer } from 'react-toastify';
-import Privacy_Policy from './pages/Privacy_Policy.jsx'
 import Verify from './pages/Verify.jsx'
 
 const App = () => {
@@ -29,7 +28,6 @@ const App = () => {
         <Route path='/contact' element={<Contact />} />
         <Route path='/product/:productId' element={<Product />} />
         <Route path='/cart' element={<Cart />} />
-        <Route path='/privacy-policy' element={<Privacy_Policy />} />
         <Route path='/login' element={<Login />} />
         <Route path='/place-order' element={<PlaceOrder />} />
         <Route path='/orders' element={<Orders />} />

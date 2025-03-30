@@ -22,7 +22,6 @@ const Contact = () => {
           <button className='border border-black hover:bg-white hover:text-black transition-all duration-500 px-8 py-4 text-white text-sm bg-black'>APPLY FOR JOB</button>
         </div>
       </div>
-      
       <NewsLetterBox />
     </div>
   )

@@ -2,6 +2,7 @@ import axios from 'axios'
 import React, { useState ,useEffect } from 'react'
 import { backendUrl, currency } from '../App'
 import { toast } from 'react-toastify'
+import { assets } from '../assets/assets'
 
 const List = ({token}) => {
 
